@@ -1,4 +1,4 @@
-# Treehouse fsjs-techdegree
+# Treehouse Full Stack JavaScript Techdegree
 ![](art/banner.png?raw=true)
 
 This is [the curriculum](Treehouse-FSJS-Curriculum.pdf) for the Team Treehouse Full Stack JavaScript Techdegree.
@@ -28,10 +28,10 @@ land an entry-level job as a Full Stack Developer.
 | 10.  | Capstone | 7 | Full Stack React School Database App
 
 ## Unit 1: Random Quote Generator
-| Course | Name | Start | End  
-| ---- | ------ | ----- | --- 
-| 1.   | [HTML & CSS](https://teamtreehouse.com/library/introduction-to-html-and-css/-getting-familiar-with-html-and-css/welcome-to-html-and-css) | Oct 1 | Oct 2
-| 2.   | [JS Basics](https://teamtreehouse.com/library/javascript-basics) | Oct 3 | current
+| Course | Name | Notes | Start | End  
+| ---- | ------ | ----- | ----- | --- 
+| 1.   | [HTML & CSS](https://teamtreehouse.com/library/introduction-to-html-and-css/-getting-familiar-with-html-and-css/welcome-to-html-and-css) | [Class 1](notes/01) | Oct 1 | Oct 2
+| 2.   | [JS Basics](https://teamtreehouse.com/library/javascript-basics) | | Oct 3 | current
 | 3. | [JS Numbers](https://teamtreehouse.com/library/javascript-numbers)
 | 4. | [JS Functions](https://teamtreehouse.com/library/javascript-functions)
 | 5. | [Practice JS Basics](https://teamtreehouse.com/library/practice-javascript-basics)
