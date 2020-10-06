@@ -31,8 +31,8 @@ land an entry-level job as a Full Stack Developer.
 | Course | Name | Notes | Start | End  
 | ---- | ------ | ----- | ----- | --- 
 | 1.   | [HTML & CSS](https://teamtreehouse.com/library/introduction-to-html-and-css/-getting-familiar-with-html-and-css/welcome-to-html-and-css) | [Class 1](notes/01) | Oct 1 | Oct 2
-| 2.   | [JS Basics](https://teamtreehouse.com/library/javascript-basics) | | Oct 3 | current
-| 3. | [JS Numbers](https://teamtreehouse.com/library/javascript-numbers)
+| 2.   | [JS Basics](https://teamtreehouse.com/library/javascript-basics) | [Class 2](notes/02) | Oct 3 | Oct 4
+| 3. | [JS Numbers](https://teamtreehouse.com/library/javascript-numbers) | | Oct 5 | current
 | 4. | [JS Functions](https://teamtreehouse.com/library/javascript-functions)
 | 5. | [Practice JS Basics](https://teamtreehouse.com/library/practice-javascript-basics)
 | 6. | [JS Loops](https://teamtreehouse.com/library/javascript-loops)
