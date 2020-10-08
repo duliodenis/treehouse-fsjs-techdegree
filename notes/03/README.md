@@ -82,3 +82,110 @@ const totalbadges = +HTMMLBadges + +CSSBadges
 ![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_21-57-03.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_21-57-03.png)
 
 ![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-01-50.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-01-50.png)
+
+**Perform Operations with the Math Object**
+
+In JS [Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) Data Types are basic values built-into the language such as Strings, Booleans, Floats.
+
+But JS adds a special wrapper around these primitive types so that we can alter them - this wrapper is called an **Object**.
+
+These Objects have **properties** - with are variable that is associated with the object
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-28-37.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-28-37.png)
+
+and actions or **methods** that you can perform on the object
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-30-46.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-30-46.png)
+
+In this section we'll look at the [Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) used to perform complex mathematical operations on numbers.
+
+```jsx
+[Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)(2.2) // => 2
+Math.round(44.9) // => 45
+```
+
+The Math object is unusual in that you call its properties and methods by using the word Math with a capital letter.
+
+**Create a Random Number**
+
+JavaScript lets you create random numbers, which you can use to add variety and surprise in your programs. You generate a random number in JavaScript via a method named [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)().
+
+*The Math.random() function returns a floating-point, pseudo-random number in the range 0 to less than 1 (inclusive of 0, but not 1) with approximately uniform distribution over that range — which you can then scale to your desired range.*
+
+Because this returns decimals values - in order to convert these to integer values we can use either of these functions:
+
+[Math.floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)() - rounds down to the floor
+
+[Math.ceil](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)() - rounds the number up to the ceiling
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-44-12.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-44-12.png)
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-48-46.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-06_22-48-46.png)
+
+In programming in general - code runs **Inside Out** - whats inside the inner most parenthesis gets evaluated before the Math.floor method.
+
+```jsx
+const dieRoll = Math.floor ( Math.random() * 6 ) + 1
+console.log(`You rolled a ${dieRoll}.`)
+```
+
+**Random Number Challenge**
+
+```jsx
+// Collect a user's input.
+const input = ("Enter a number and I'll pick a random number between 1 and this number")
+
+// Convert that input from a string to a number. 
+// This will be the highest possible random number in the range of numbers
+// starting from 1.
+const number = parseInt(input)
+
+// Use the Math.random() method to create a random number using the number
+// provided by the user.
+const randomNumber = Math.floor( Math.random() * number) + 1
+
+// Create a message displaying the random number. 
+// You can use any method you want to display the message.
+// For instance, print it to the console, display it on the page, or with an alert.
+console.log(`${randomNumber} is a random number between 1 and ${input}.`)
+```
+
+```jsx
+// version 2
+// Update the random number program to ask for two numbers, 
+// then provide a random number between the two.
+const low = ("Enter a low number and I'll pick a random number between it and a high number")
+const high = ("Enter a high number and I'll pick a random number between the low and this number")
+const lowNumber = parseInt(low)
+const highNumber = parseint(high)
+
+if (lowNumber && highNumber) {
+	const randomNumber = Math.floor( Math.random() * highNumber) + lowNumber
+	console.log(`${randomNumber} is a random number between ${lowNumber} and ${highNumber}.)
+} else {
+	console.log('Enter both a low and high number')
+}
+```
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-07_22-20-42.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-07_22-20-42.png)
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-07_22-21-02.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-07_22-21-02.png)
+
+```jsx
+// Convert the input to a number
+const lowNumber = parseInt(inputLow);
+const highNumber = parseInt(inputHigh);
+
+// Check if lowNumber OR highNumber is not a number
+if ( isNaN(lowNumber) || isNaN(highNumber) ) {
+  console.log('You need to provide two numbers. Try again.');
+} else {
+  // Use Math.random() and the user's number to generate a random number
+  const randomNumber = Math.floor( Math.random() * (highNumber - lowNumber + 1) ) + lowNumber;
+
+  // Create a message displaying the random number
+  console.log(`${randomNumber} is a random number between ${lowNumber} and ${highNumber}.`);
+}
+```
+
+![03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-07_22-40-13.png](03-JS-Numbers%20f567918810604545950953392e8e4d96/Screenshot_from_2020-10-07_22-40-13.png)
