@@ -8,7 +8,7 @@ Three types of loops in this course:
 
 - [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 - [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
-- for
+- [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
 # **The while loop**
 
@@ -292,3 +292,16 @@ A common improvement is to review and improve code based on the DRY principle.
 - Reduce the repetition of code in a program
 - Loops help you write DRY code
 - JavaScript functions embrace the DRY principle
+
+```jsx
+let html = ''
+const randomValue = () => Math.floor( Math.random() * 256 )
+
+function randomRGB = value => `rgb ( ${value()}, ${value()}, ${value()} )` 
+
+for (let i = 1; i <= 10; i++) html += `<div style='background-color: ${randomRGB(randomValue)}">${i}</div>`
+
+document.querySelector('main').innerHTML = html
+```
+
+![06-JS-Loops%200911a92fcdb94692800187ff19fd3587/Screenshot_from_2020-10-11_13-52-51.png](06-JS-Loops%200911a92fcdb94692800187ff19fd3587/Screenshot_from_2020-10-11_13-52-51.png)
