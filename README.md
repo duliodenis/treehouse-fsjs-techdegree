@@ -36,7 +36,7 @@ land an entry-level job as a Full Stack Developer.
 | 4. | [JS Functions](https://teamtreehouse.com/library/javascript-functions) | [Class 4](notes/04) | Oct 8 | Oct 10
 | 5. | [Practice JS Basics](https://teamtreehouse.com/library/practice-javascript-basics)
 | 6. | [JS Loops](https://teamtreehouse.com/library/javascript-loops) | [Class 6](notes/06) | Oct 11 | Oct 11
-| 7. | [JS Arrays](https://teamtreehouse.com/library/javascript-arrays) 
+| 7. | [JS Arrays](https://teamtreehouse.com/library/javascript-arrays) | [Class 7](notes/07) | Oct 12 | Oct 12
 | 8. | [JS Objects](https://teamtreehouse.com/library/javascript-objects-2)
 | 9. | [Practice Loops, Arrays, Objects](https://teamtreehouse.com/library/practice-javascript-loops-arrays-and-objects)
 
@@ -47,7 +47,7 @@ land an entry-level job as a Full Stack Developer.
 | 1.   | [CSS Selectors](https://teamtreehouse.com/library/css-selectors-quickstart)
 | 2.   | [JS & the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
 | 3. | [Practice JS & the DOM](https://teamtreehouse.com/library/practice-javascript-and-the-dom)
-| 4. | [Dom Scripting](https://teamtreehouse.com/library/dom-scripting-by-example)
+| 4. | [DOM Scripting](https://teamtreehouse.com/library/dom-scripting-by-example)
 | 5. | [Debugging JS](https://teamtreehouse.com/library/debugging-javascript-in-the-browser)
 | 6. | [Pseudocode](https://teamtreehouse.com/library/plan-ahead-with-pseudocode)
 | 7. | [Pseudocode to JS](https://teamtreehouse.com/library/translating-pseudocode-to-javascript-code)
