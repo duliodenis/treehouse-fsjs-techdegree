@@ -37,7 +37,7 @@ land an entry-level job as a Full Stack Developer.
 | 5. | [Practice JS Basics](https://teamtreehouse.com/library/practice-javascript-basics)
 | 6. | [JS Loops](https://teamtreehouse.com/library/javascript-loops) | [Class 6](notes/06) | Oct 11 | Oct 11
 | 7. | [JS Arrays](https://teamtreehouse.com/library/javascript-arrays) | [Class 7](notes/07) | Oct 12 | Oct 12
-| 8. | [JS Objects](https://teamtreehouse.com/library/javascript-objects-2)
+| 8. | [JS Objects](https://teamtreehouse.com/library/javascript-objects-2) | [Class 8](notes/08) | Oct 13 | current
 | 9. | [Practice Loops, Arrays, Objects](https://teamtreehouse.com/library/practice-javascript-loops-arrays-and-objects)
 
 
