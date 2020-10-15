@@ -42,15 +42,16 @@ land an entry-level job as a Full Stack Developer.
 
 
 ## Unit 2: Pagination & Content Filter
-| Course | Name
-| ---- | ------
-| 1.   | [CSS Selectors](https://teamtreehouse.com/library/css-selectors-quickstart)
-| 2.   | [JS & the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
-| 3. | [Practice JS & the DOM](https://teamtreehouse.com/library/practice-javascript-and-the-dom)
-| 4. | [DOM Scripting](https://teamtreehouse.com/library/dom-scripting-by-example)
-| 5. | [Debugging JS](https://teamtreehouse.com/library/debugging-javascript-in-the-browser)
-| 6. | [Pseudocode](https://teamtreehouse.com/library/plan-ahead-with-pseudocode)
-| 7. | [Pseudocode to JS](https://teamtreehouse.com/library/translating-pseudocode-to-javascript-code)
+| Course | Name | Notes | Start | End  
+| ---- | ------ | ----- | ----- | --- 
+| 1.   | [CSS Basics](https://teamtreehouse.com/library/css-basics) | [Class 9](notes/09) | Oct 14 | current
+| 2.   | [CSS Selectors](https://teamtreehouse.com/library/css-selectors-quickstart) | |  | 
+| 3.   | [JS & the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
+| 4. | [Practice JS & the DOM](https://teamtreehouse.com/library/practice-javascript-and-the-dom)
+| 5. | [DOM Scripting](https://teamtreehouse.com/library/dom-scripting-by-example)
+| 6. | [Debugging JS](https://teamtreehouse.com/library/debugging-javascript-in-the-browser)
+| 7. | [Pseudocode](https://teamtreehouse.com/library/plan-ahead-with-pseudocode)
+| 8. | [Pseudocode to JS](https://teamtreehouse.com/library/translating-pseudocode-to-javascript-code)
 
 
 ## Unit 3: Interactive Form
