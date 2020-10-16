@@ -35,6 +35,40 @@ CSS = the presentation layer
 
 Before CSS was introduced - presentational tags (mostly proprietary) were embedded in the HTML to control the design of a web page.
 
-HTML4 introduced CSS to seperate content and presentation.
+**HTML4** introduced CSS to separate content and presentation.
 
-CSS3, the latest evolution of CSS, has introduced in browser design tools close to what you'd see in a graphics editor like Photoshop with rounded corners, box shadows, animations, gradiants, and new layout features like Flexbox.
+CSS3, the latest evolution of CSS, has introduced in-browser design tools close to what you'd see in a graphics editor like Photoshop with rounded corners, box shadows, animations, gradients, and new layout features like Flexbox.
+
+## CSS Resources
+
+With all the new CSS features, selectors, properties and values available, how do we stay current? Here are helpful resources for learning and staying up-to-date with CSS.
+
+- **[Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS)**
+- **[WebPlatform.org](https://www.webplatform.org/docs/css/)**
+- **[W3C](http://www.w3.org/Style/CSS/Overview.en.html)**
+- **[Can I Use](http://caniuse.com/)**
+
+## Inline and Internal Styles
+
+There are different ways we can add CSS to a page. First, let’s go over the inline and internal style methods.
+
+### **Inline Styles**
+
+When we write inline styles, we write the CSS in the HTML file, directly inside an element's tag using a style attribute.
+
+```css
+<body style="background-color: orange;">
+```
+
+### **Internal Styles**
+
+Internal styles are embedded in the **`<head>`** section of the HTML document and are defined inside a **`<style>`** tag.
+
+```css
+<style>
+  p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+```
