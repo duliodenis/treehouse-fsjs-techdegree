@@ -72,3 +72,30 @@ Internal styles are embedded in the **`<head>`** section of the HTML document 
   }
 </style>
 ```
+
+## External Style Sheets
+
+With an external style sheet we can change the look of an entire website with one file.
+
+## Linking to an external style sheet
+
+```css
+<link rel="stylesheet" href="css/style.css">
+```
+
+rel = relationship
+
+href = what points to the location
+
+- The **`rel`** attribute specifies the relationship between the HTML document and the linked document
+- The **`href`** attribute points to the location of the CSS file.
+
+## Importing Style Sheets with @import
+
+The @import statement lets us import CSS from other style sheets. It shares some of the same advantages as linking a stylesheet, like browser caching and maintenance efficiency.
+
+```css
+@import 'reset-styles.css';
+```
+
+The @import statement must precede all other CSS rules in a style sheet in order for it to work properly.
